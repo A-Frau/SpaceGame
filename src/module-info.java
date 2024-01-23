@@ -11,7 +11,6 @@ module main {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens main.main to javafx.fxml;
     exports main;
     opens main to javafx.fxml;
 }
